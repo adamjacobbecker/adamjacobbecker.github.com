@@ -6,7 +6,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>Adam Becker</title>
+  <title>Fixing my PHPUnit install on 10.7</title>
   <meta name="description" content="">
 
   <meta name="viewport" content="width=device-width">
@@ -37,33 +37,34 @@
   </header>
   <div role="main" class="content">
 
-  <h3>Blog Posts</h3>
+  <h3>Fixing my PHPUnit install on 10.7</h3>
 
-<ul class="posts">
-  
-    <li><span>23 Jul 2012</span> <a href="/2012/07/23/phpunit-os-x-10.7-fix/">Fixing my PHPUnit install on 10.7</a></li>
-  
-    <li><span>03 Jul 2012</span> <a href="/2012/07/03/concensus-released/">Concensus: A RubyGem for reading U.S. Census Bureau's TIGER/Line Shapefiles.</a></li>
-  
-    <li><span>14 Jun 2012</span> <a href="/2012/06/14/goddamn-three-bars-icon/">What the hell does ≡ do, anyway?</a></li>
-  
-    <li><span>03 May 2012</span> <a href="/2012/05/03/dear-pagoda-box/">Dear Pagoda Box</a></li>
-  
-    <li><span>11 Apr 2012</span> <a href="/2012/04/11/hide-symfony-1.4-debug-bar/">Userscript to hide Symfony 1.4 Web Debug Bar by default</a></li>
-  
-    <li><span>06 Apr 2012</span> <a href="/2012/04/06/govhub-caltv-interview-where-i-get-edited-out/">GovHub CalTV Interview</a></li>
-  
-    <li><span>02 Apr 2012</span> <a href="/2012/04/02/so-glad-im-not-in-school/">Thanks, open source community,</a></li>
-  
-    <li><span>04 Mar 2012</span> <a href="/2012/03/04/staying-sane-with-some-effing-bicycles/">How to stay sane while working > 60 hours a week on your startup</a></li>
-  
-    <li><span>27 Feb 2012</span> <a href="/2012/02/27/census-shape-converter-released/">Our first open-sourced project, Census Shape Converter, will grab a KML file for any U.S. state, county, or city</a></li>
-  
-    <li><span>13 Feb 2012</span> <a href="/2012/02/13/doctrine-1.2-and-memcached-woes/">Doctrine 1.2 and Memcached Woes</a></li>
-  
-    <li><span>08 Feb 2012</span> <a href="/2012/02/08/tools-of-the-trade/">Tools of the Trade</a></li>
-  
-</ul>
+  <p>So a tragedy happened, and after a blissful three months of coding in Ruby, I&#8217;m back to working with PHP.</p>
+
+<p>Today, me and a coworker both ran into an issue where after installing PHPUnit, it would fail silently, just returning a blank prompt after typing <code>phpunit</code> into terminal. After opening up my php_error.log, I found that it was throwing this error:  <code>PHP Fatal error: require_once(): Failed opening required 'File/Iterator/Autoload.php' (include_path='.:/Applications/MAMP/bin/php/php5.3.6/lib/php') in /usr/local/share/pear/PHPUnit/Autoload.php on line 45</code>.</p>
+
+<p>If you&#8217;ve ever used PEAR, you probably know that it&#8217;s an absolute abomination and would probably work better as a torture device than as a functional package manger. Well, it turns out that there are many PHPUnit packages floating around the internet, and I just hadn&#8217;t gotten the correct one.</p>
+
+<p>My process for updating PEAR and installing the most recent (as of 7/22/2012!) PHPUnit is below. Hope this helps!</p>
+
+<pre class="prettyprint"># Updates pear to latest version
+
+sudo curl <a href="http://pear.php.net/go-pear.phar">http://pear.php.net/go-pear.phar</a> &gt; go-pear.php
+
+sudo php -q go-pear.php
+
+
+
+# Uninstalls phpunit and reinstalls
+
+# correct version with all dependencies
+
+sudo pear uninstall phpunit
+
+sudo pear install --alldeps --force channel://pear.phpunit.de/PHPUnit
+
+</pre>
+
 
   </div>
   <footer>

@@ -1,0 +1,80 @@
+body {
+  background-color: #D3EEEF;
+}
+
+header {
+
+  float: left;
+  margin: 5px 0 0 20px;
+  padding: 10px 5px;
+  border-style: dotted;
+  border-color: #aaa;
+  border-width: 1px 0;
+
+  .site-title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-left: 100px;
+
+    .subtitle {
+      font-size: 13px;
+      font-weight: normal;
+    }
+  }
+
+  .avatar {
+    opacity: 0.9;
+    border-radius: 42px;
+    width: 85px;
+    height: 85px;
+    float: left;
+  }
+
+  /* Social Icons */
+  ul#socialize {
+
+    margin: 10px 0 0 100px;
+    padding: 0;
+
+    li { 
+      float: left;
+      padding-top: 5px;
+      margin: 0 4px 5px 0; 
+
+      &.twitter a { background-position: -25px bottom }
+      &.linkedin a { background-position: -200px bottom }
+      &.github a { background-position: -575px bottom }
+    }
+
+    a { 
+      background: url(http://static.tumblr.com/njty47g/RQXlf6209/icons_spr_black.png) left bottom no-repeat;
+      width: 25px;
+      height: 25px;
+      padding: 0;
+      border: 0;
+      display: block;
+      text-indent: -999em;
+      overflow: hidden;
+      opacity: 0.8;
+
+      &:hover { background-color: transparent; opacity: 1; }
+
+      &:active { position: relative; top: 1px; }
+    }
+
+  }
+
+}
+
+.content {
+  margin-left: 320px;
+}
+
+.posts {
+
+  padding: 20px 0 0 0;
+
+  li {
+    list-style: none;
+  }
+}
