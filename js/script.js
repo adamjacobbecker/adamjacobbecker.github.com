@@ -1,8 +1,5 @@
-/* Author:
+/* Author: Adam Becker */
 
-*/
-
-
-
-
-
+$(function(){
+  
+});

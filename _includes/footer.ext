@@ -9,6 +9,7 @@
 
   <script src="/js/plugins.js"></script>
   <script src="/js/script.js"></script>
+  <script src="/js/prettify.js"></script>
 
   <script>
     var _gaq=[['_setAccount','UA-24940707-1'],['_trackPageview']];

@@ -8,39 +8,21 @@ title: Doctrine 1.2 and Memcached Woes
 <p>It all started harmlessly, with me installing Memcached in my local dev environment. I used <a href="http://mxcl.github.com/homebrew/" target="_blank">Homebrew</a> to install Memcached itself, and then downloaded the PECL extension and installed it <a href="http://www.sohailriaz.com/how-to-install-memcached-with-memcache-php-extension-on-centos-5x/" target="_blank">with these instructions</a>. I had previously configured a class to aid with clearing the Doctrine result cache entries, so it was just a matter of editing it to clear the entries from Memcached instead of APC.</p>
 
 <pre class="prettyprint">&lt;?php
-
 class myCache{
 
-
-
     public static function clearRegexMatches($regex){
-
        Doctrine_Manager::getInstance()
-
             -&gt;getAttribute(Doctrine_Core::ATTR_RESULT_CACHE)
-
             -&gt;deleteByRegex($regex);
-
     }
-
-
 
     public static function clearOne($name){
-
         Doctrine_Manager::getInstance()
-
             -&gt;getAttribute(Doctrine_Core::ATTR_RESULT_CACHE)
-
             -&gt;delete($name);
-
     }
 
-
-
 }
-
-
-
 </pre>
 
 <p>And zing! Memcached was up and running! Symfony and Doctrine were using it perfectly, I couldn&#8217;t believe how easy it was.</p>
