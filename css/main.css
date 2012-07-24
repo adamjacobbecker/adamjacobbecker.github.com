@@ -1,9 +1,9 @@
 body {
-  background-color: #D3EEEF; }
+  background-color: #e8f2fc; }
 
 header {
-  float: left;
-  margin: 5px 0 0 20px;
+  width: 300px;
+  margin: 20px auto;
   padding: 10px 5px;
   border-style: dotted;
   border-color: #aaa;
@@ -36,7 +36,7 @@ header {
       header ul#socialize li.github a {
         background-position: -575px bottom; }
     header ul#socialize a {
-      background: url(http://static.tumblr.com/njty47g/RQXlf6209/icons_spr_black.png) left bottom no-repeat;
+      background: url(/img/social_sprite.png) left bottom no-repeat;
       width: 25px;
       height: 25px;
       padding: 0;
@@ -53,9 +53,24 @@ header {
         top: 1px; }
 
 .content {
-  margin-left: 320px; }
+  width: 70%;
+  margin: 0 auto; }
+  .content img {
+    max-width: 100%;
+    height: auto;
+    margin: 5px 0; }
 
 .posts {
-  padding: 20px 0 0 0; }
+  padding: 0; }
   .posts li {
-    list-style: none; }
+    list-style: none;
+    padding: 5px 0;
+    border-bottom: 1px dotted #aaa; }
+    .posts li span {
+      font-size: 14px;
+      color: #666;
+      font-family: monospace;
+      padding-right: 10px;
+      display: inline-block; }
+    .posts li:last-child {
+      border-bottom: none; }
