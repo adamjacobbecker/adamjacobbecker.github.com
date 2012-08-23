@@ -22,7 +22,7 @@
     <a href="/"><img src="/img/avatar.png" class="avatar" alt="It's me, duh." /></a>
     <div class="site-title">
       <a href="/">Adam Becker</a>
-      <div class="subtitle">writes code in Oakland, CA.</div>
+      <div class="subtitle">Oaklander in Washington, DC.</div>
     </div>
     <ul id="socialize" class="clearfix">
       <li class="twitter">
@@ -34,6 +34,6 @@
       <li class="github"><a href="http://github.com/AdamJacobBecker" title="AdamJacobBecker on github" target="_blank">
         AdamJacobBecker on github</a>
       </li>
-    </ul>  
+    </ul>
   </header>
   <div role="main" class="content">
