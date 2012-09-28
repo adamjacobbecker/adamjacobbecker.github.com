@@ -23,7 +23,7 @@ Here's the list of the open-source projects that have stemmed from our work in t
 
 - [mongoose-api-query](https://github.com/adamjacobbecker/mongoose-api-query) - A plugin for creating a complex search API with Node and MongooseJS.
 
-So there you have it, 6 open-source projects in 2 months, and it barely took any extra effort on our part. Sure, we may have spent a couple days refactoring and writing READMEs, but the benefits of modularization are totally worth it. With any hope, this can start to become the norm, and in the coming years you'll see more and more official US Government accounts and repositories online. Heck, you're the ones paying our salaries, so it would only be fair.
+So there you have it, 6 open-source projects in 2 months, and it barely took any extra effort on our part. Sure, we may have spent a couple days refactoring and writing READMEs, but the benefits of modularization are totally worth it. With any hope, this can start to become the norm, and in the coming years you'll see more and more official US Government accounts and repositories online.
 
 For more reading:
 
