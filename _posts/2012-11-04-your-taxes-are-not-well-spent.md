@@ -21,7 +21,7 @@ And seriously, think about it: how egregious is it that on voting day we'll all 
 
 ![old DOS program](http://i.imgur.com/LkrdX.png)
 
-So what can do you? If you're truly entrepreneurial, you'll forge ahead into this underserved market and find yourself not just creating wealth for you and your company, but for the community around you as well. Build that jury duty reporting software, sell it as software-as-a-service to states and counties, and in addition to having an extremely lucrative business, you'll also be saving money and creating value for everyone involved. Sure, if you're selling to governments your market might be finite, but your competition is virtually nonexistent.
+So what can you do? If you're truly entrepreneurial, you'll forge ahead into this underserved market and find yourself not just creating wealth for you and your company, but for the community around you as well. Build that jury duty reporting software, sell it as software-as-a-service to states and counties, and in addition to having an extremely lucrative business, you'll also be saving money and creating value for everyone involved. Sure, if you're selling to governments your market might be finite, but your competition is virtually nonexistent.
 
 And if you want to get involved in a smaller, but meaningful way, check out the new [Code for America Brigade](http://brigade.codeforamerica.org/), where you, as an everyday citizen, can help your city adopt impactful new technology.
 
