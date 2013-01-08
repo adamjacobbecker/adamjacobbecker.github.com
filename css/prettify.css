@@ -1,6 +1,7 @@
 .prettyprint {
   color: #839496;
-  background-color: #002b36; }
+  background-color: #002b36;
+  padding: 5px; }
   .prettyprint.inline {
     display: inline;
     padding: 2px 4px; }
