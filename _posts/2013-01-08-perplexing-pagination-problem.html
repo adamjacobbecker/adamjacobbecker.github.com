@@ -5,7 +5,7 @@ title: A Perplexing Pagination Problem
 
 <p>Say you've got a list of paginated messages, which is filtered to show unread messages only, and you're going through the first page, reading them and marking them as read one-by-one. What happens when you click "next"? With normal pagination you'd be taken to the second page. But wait, because the items on that first page no longer belong in the list of unread messages, the first page is now full of messages that are still unread!</p>
 
-<p>I ran into this problem recently while working on <a href="https://github.com/presidentialinnovationfellows/hire-ez" target="_blank">Hire-EZ</a>, an open-source tool for reviewing and selecting applicants out of a larger pool. The solution? When the user clicks the "forward" button, we intercept the event and calculate how many visible messages no longer belong in the current filter. The code looks something like:</p>
+<p>I ran into this problem recently while working on <a href="https://github.com/presidential-innovation-fellows/hire-ez" target="_blank">Hire-EZ</a>, an open-source tool for reviewing and selecting applicants out of a larger pool. The solution? When the user clicks the "forward" button, we intercept the event and calculate how many visible messages no longer belong in the current filter. The code looks something like:</p>
 
 <pre class="prettyprint">
 $(document).on "click", ".next", (e) ->
