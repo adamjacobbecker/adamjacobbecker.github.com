@@ -2,7 +2,7 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #333;
-  background: #efefef;
+  background: #edf6ff;
   padding: 0;
 }
 h1,
@@ -36,7 +36,7 @@ p {
 #sidebar {
   min-height: 100%;
   z-index: 1200;
-  background: #efefef;
+  background: #edf6ff;
   padding-bottom: 10px;
 }
 #sidebar .sidebar-nav .info {
