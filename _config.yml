@@ -3,3 +3,4 @@ description: "code, bikes, soccer, oakland. helping government through technolog
 permalink: pretty
 server: true
 auto: true
+pygments: true

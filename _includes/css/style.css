@@ -154,6 +154,8 @@ p {
   width: auto;
   margin-left: 0;
   padding: 10px;
+  max-width: 800px;
+  text-align: justify;
 }
 #content #post-wrapper .pagination {
   margin-left: 20px;
@@ -190,7 +192,7 @@ ul.post-archive li span {
     position: fixed;
   }
   #sidebar .sidebar-nav .info {
-    padding: 0 10px 0 30px;
+    padding: 0 10px 0 50px;
   }
   #sidebar .sidebar-nav #avatar {
     float: none;

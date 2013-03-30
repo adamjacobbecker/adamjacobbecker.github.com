@@ -7,7 +7,7 @@ title: A Perplexing Pagination Problem
 
 <p>I ran into this problem recently while working on <a href="https://github.com/presidential-innovation-fellows/hire-ez" target="_blank">Hire-EZ</a>, an open-source tool for reviewing and selecting applicants out of a larger pool. The solution? When the user clicks the "forward" button, we intercept the event and calculate how many visible messages no longer belong in the current filter. The code looks something like:</p>
 
-<pre class="prettyprint">
+{% highlight coffeescript %}
 $(document).on "click", ".next", (e) ->
   total = $(this).data('total')
   href = $(this).data('href')
@@ -36,7 +36,7 @@ $(document).on "click", ".next", (e) ->
   url = "#{href}?#{$.param(params)}"
 
   return $(@).attr 'href', url
-</pre>
+{% endhighlight %}
 
 <p>Yeah, it's a little complex, but the result ends up being pretty smooth. This one stumped me for a while, so if you've tackled this problem differently I'd love to see what you came up with.</p>
 
