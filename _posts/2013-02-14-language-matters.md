@@ -3,7 +3,7 @@ layout: post
 title: Language matters
 ---
 
-I am wholly of the belief the programmers shouldn't define themselves by the language they code in. Not only is one's choice of language far less important than their ability to write clear, concise, and structured code, but I also can't see how anybody could avoid writing code in all but the language they prefer. For me, working on civic technology, it's pretty much a necessity that I can contribute to projects of different languages, not to mention working across the stack from backend to front.
+I am wholly of the belief that programmers shouldn't define themselves by the language they code in. Not only is one's choice of language far less important than their ability to write clear, concise, and structured code, but I also can't see how anybody could avoid writing code in all but the language they prefer. For me, working on civic technology, it's pretty much a necessity that I can contribute to projects of different languages, not to mention working across the stack from backend to front.
 
 But for someone who's arguing that the language doesn't really matter, I'm still going to propose that **choosing the right programming language can go as far as to make or break your project.**
 
