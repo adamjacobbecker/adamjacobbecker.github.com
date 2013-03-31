@@ -14,12 +14,8 @@ h1, h2, h3, h4
   color #111
 
 a
-  color #404040
+  color $highlight_color
   cursor pointer
-
-  &:hover
-    color $highlight_color
-    text-decoration none
 
 p
   line-height 25px
@@ -134,6 +130,9 @@ p
       border-bottom 1px solid #DDDED7
 
       h3
+        a
+          color #333
+
         span
           color #aaa
           font-size 12px
