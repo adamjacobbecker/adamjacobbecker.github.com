@@ -1,6 +1,8 @@
 ---
 layout: post
 title: A Perplexing Pagination Problem
+abstract: >
+  Say you've got a list of paginated messages, which is filtered to show unread messages only, and you're going through the first page, reading them and marking them as read one-by-one. What happens when you click "next"? With normal pagination you'd be taken to the second page. But wait, because the items on that first page no longer belong in the list of unread messages, the first page is now full of messages that are still unread!
 ---
 
 <p>Say you've got a list of paginated messages, which is filtered to show unread messages only, and you're going through the first page, reading them and marking them as read one-by-one. What happens when you click "next"? With normal pagination you'd be taken to the second page. But wait, because the items on that first page no longer belong in the list of unread messages, the first page is now full of messages that are still unread!</p>

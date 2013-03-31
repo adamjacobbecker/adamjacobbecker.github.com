@@ -1,6 +1,8 @@
 ---
 layout: post
 title: Introducing MorningCheckin
+abstract: >
+  Reading the latest hullabloo about whether standups are poisonous or not made me realize that I forgot to give a proper introduction of MorningCheckin, an app originally designed for our team to bring our morning standup meetings online.
 published: false
 ---
 

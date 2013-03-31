@@ -13,7 +13,7 @@ h1, h2, h3, h4
   font-family 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif
   color #111
 
-a
+a:not(.btn)
   color $highlight_color
   cursor pointer
 
@@ -127,7 +127,6 @@ p
     li.post
       padding 10px 35px
       margin-bottom 10px
-      border-bottom 1px solid #DDDED7
 
       h3
         a
@@ -167,15 +166,18 @@ p
     .footer-link
       padding-left 30px
 
+.see-all-posts
+  margin-left 35px
 
 ul.post-archive
   list-style none
   margin 0
+  max-width 600px
 
   li
     padding 10px 0
 
-    a
+    > a
       font-family 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif
       color #111
       font-size 16px
@@ -184,8 +186,15 @@ ul.post-archive
       &:hover
         color $highlight_color
 
-    span
+    .posted-at
       color #aaa
+      font-size 12px
+
+    .abstract
+      display block
+      color #444
+      font-weight 300
+      line-height 20px
       font-size 12px
 
 .footnotes
