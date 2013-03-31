@@ -195,6 +195,9 @@ ul.post-archive li .abstract {
 .footnotes ol li p {
   display: inline;
 }
+#page-navigation {
+  margin: 0 30px;
+}
 @media (min-width: 767px) {
   #sidebar {
     width: 250px;
