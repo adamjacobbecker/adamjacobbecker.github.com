@@ -114,6 +114,12 @@ p {
   list-style: none;
   margin: 3px 3px;
 }
+#sidebar .sidebar-nav ul.personal-links li a {
+  text-decoration: none;
+}
+#sidebar .sidebar-nav ul.personal-links li a:hover {
+  color: #017294;
+}
 #content {
   margin-left: 0;
 }
@@ -203,6 +209,9 @@ ul.post-archive li .abstract {
     width: 250px;
     position: fixed;
   }
+  #sidebar p.description {
+    margin-bottom: 10px;
+  }
   #sidebar .sidebar-nav .info {
     padding: 0 10px 0 50px;
   }
@@ -212,10 +221,6 @@ ul.post-archive li .abstract {
   }
   #sidebar .sidebar-nav ul.personal-links {
     text-align: left;
-  }
-  #sidebar .sidebar-nav ul.personal-links li {
-    display: block;
-    margin: 3px 0;
   }
   .sidebar-nav-fixed {
     position: fixed;

@@ -10,6 +10,8 @@
   <meta name="description" content="Adam Becker writes code in Oakland, CA.">
 
   <meta name="viewport" content="width=device-width">
+  <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
+  <link href="//netdna.bootstrapcdn.com/font-awesome/3.0.2/css/font-awesome.css" rel="stylesheet">
   <link rel="stylesheet" href="{{site.url}}/css/style.css">
   <link href='http://fonts.googleapis.com/css?family=Raleway:400,600,200,800' rel='stylesheet' type='text/css'>
 
@@ -26,9 +28,9 @@
             <h3><a href="/">{{site.title}}</a></h3>
             <p class="description">{{site.description}}</p>
             <ul class="personal-links">
-              <li><a href="http://twitter.com/adamjacobbecker">twitter</a></li>
-              <li><a href="http://github.com/adamjacobbecker">github</a></li>
-              <li><a href="mailto:ad ~AT~ mbecker ~DOT~ cc">email</a></li>
+              <li><a href="http://twitter.com/adamjacobbecker"><i class="icon-twitter"></i></a></li>
+              <li><a href="http://github.com/adamjacobbecker"><i class="icon-github-alt"></i></a></li>
+              <li><a href="mailto:ad ~AT~ mbecker ~DOT~ cc"><i class="icon-envelope-alt"></i></a></li>
             </ul>
           </div>
         </div>
