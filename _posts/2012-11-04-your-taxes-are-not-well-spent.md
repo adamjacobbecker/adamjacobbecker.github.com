@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Your taxes are not well-spent
+featured: true
+abstract: >
+  When my mom came to visit me in DC, she brought with her my California jury duty notice. It had arrived at her house, (my address when I first registered to vote,) and after postponing once while I was still in school, it was again my turn to fulfill my civic duty and show up to possibly be selected as a juror. All standard stuff, except for the fact that I won't be living in California for at least another three months, maybe even more. Alright, should be simple enough to postpone it again, right?
 ---
 
 When my mom came to visit me in DC, she brought with her my California jury duty notice. It had arrived at her house, (my address when I first registered to vote,) and after postponing once while I was still in school, it was again my turn to fulfill my civic duty and show up to possibly be selected as a juror. All standard stuff, except for the fact that I won't be living in California for at least another three months, maybe even more. Alright, should be simple enough to postpone it again, right?

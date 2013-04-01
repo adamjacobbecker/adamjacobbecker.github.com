@@ -4,18 +4,20 @@
   <ol id="posts">
     <li class="post nav">
       <ul class="post-archive">
-        {% for post in site.posts limit:3 %}
-          <li>
-            <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
-            <span class="posted-at">{{ post.date | date_to_string }}</span>
-            <span class="abstract">{{ post.abstract }} <a class="read-more" href="{{site.url}}{{ post.url }}">Read more...</a></span>
-          </li>
-        {% endfor %}
-        {% for post in site.posts limit:3 offset:3 %}
-          <li>
-            <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
-            <span class="posted-at">{{ post.date | date_to_string }}</span>
-          </li>
+        {% assign string_counter = '' %}
+        {% for post in site.posts %}
+          {% assign counter = string_counter.size %}
+          {% if counter < 6 and post.featured %}
+            {% capture temp %}{{ string_counter }}*{% endcapture %}
+            {% assign string_counter = temp %}
+            <li>
+              <a href="{{site.url}}{{ post.url }}">{{ post.title }}</a>
+              <span class="posted-at">{{ post.date | date_to_string }}</span>
+              {% if counter < 3 %}
+                <span class="abstract">{{ post.abstract }} <a class="read-more" href="{{site.url}}{{ post.url }}">Read more...</a></span>
+              {% endif %}
+            </li>
+          {% endif %}
         {% endfor %}
       </ul>
     </li>

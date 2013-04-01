@@ -1,6 +1,9 @@
 ---
 layout: post
 title: Open Source Software and the US Government
+featured: true
+abstract: >
+  Earlier this month, the White House released the source code powering its "We The People" website, a platform that allows citizens to petition The White House on issues ranging from "Greater Protections for Same-Sex Couples" to "Ale to the Chief: White House Beer Recipe". While it wasn't the first open-sourced project from inside the federal government, it was an important milestone, being the first repo online at github.com/**whitehouse**.
 ---
 
 Earlier this month, the White House released the source code powering its "We The People" website, a platform that allows citizens to petition The White House on issues ranging from "Greater Protections for Same-Sex Couples" to "Ale to the Chief: White House Beer Recipe". While it wasn't the first open-sourced project from inside the federal government, it was an important milestone, being the first repo online at github.com/**whitehouse**.
