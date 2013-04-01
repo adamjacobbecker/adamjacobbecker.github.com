@@ -3,6 +3,7 @@ layout: none
 ---
 
 {% capture js %}
+{% include js/libs/turbolinks.js %}
 {% include js/libs/jquery.timeago.js %}
 {% include js/libs/handlebars.js %}
 {% include js/libs/handlebars-helpers.js %}
