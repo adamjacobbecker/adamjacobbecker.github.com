@@ -6,7 +6,12 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <title>{{ page.title }}</title>
+  {% if page.title %}
+    {% capture title %}{{ page.title }} | {{ site.title }}{% endcapture %}
+  {% else %}
+    {% assign title = site.title %}
+  {% endif %}
+  <title>{{ title }}</title>
   <meta name="description" content="Adam Becker writes code in Oakland, CA.">
 
   <meta name="viewport" content="width=device-width">
