@@ -2,11 +2,11 @@
 layout: post
 title: Introducing MorningCheckin
 abstract: >
-  Reading the latest hullabloo about whether standups are poisonous or not made me realize that I forgot to give a proper introduction of MorningCheckin, an app originally designed for our team to bring our morning standup meetings online.
+  Reading the latest hullabaloo about whether standups are poisonous or not made me realize that I forgot to give a proper introduction of MorningCheckin, an app originally designed for our team to bring our morning standup meetings online.
 featured: true
 ---
 
-Reading the latest hullabloo about whether [standups are poisonous](http://garethrees.co.uk/2013/03/28/standups-are-poisonous/) [or not](http://www.darianshimy.com/blog/2013/03/30/standups-are-not-poisonous/) made me realize that I forgot to give a proper introduction of [MorningCheckin](http://www.morningcheckin.com), an app originally designed for our team to bring our morning standup meetings online.
+Reading the latest hullabaloo about whether [standups are poisonous](http://garethrees.co.uk/2013/03/28/standups-are-poisonous/) [or not](http://www.darianshimy.com/blog/2013/03/30/standups-are-not-poisonous/) made me realize that I forgot to give a proper introduction of [MorningCheckin](http://www.morningcheckin.com), an app originally designed for our team to bring our morning standup meetings online.
 
 [![morningcheckin screenshot](https://a248.e.akamai.net/camo.github.com/0c53af32a348dcb95cc2682e1c2109c4c4680d7c/687474703a2f2f692e696d6775722e636f6d2f756130537232772e706e67)](http://www.morningcheckin.com)
 
