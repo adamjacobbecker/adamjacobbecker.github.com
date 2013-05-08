@@ -12,7 +12,7 @@
     {% assign title = site.title %}
   {% endif %}
   <title>{{ title }}</title>
-  <meta name="description" content="Adam Becker writes code in Oakland, CA.">
+  <meta name="description" content="{{site.description | strip_html}}">
 
   <meta name="viewport" content="width=device-width">
   <link href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.1/css/bootstrap-combined.no-icons.min.css" rel="stylesheet">
