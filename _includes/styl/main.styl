@@ -1,20 +1,20 @@
 @import "nib"
 
-$highlight_color = #01A9DB
+$linkColor = #004a5d
 
 body
   font-size 15px
   line-height 24px
   color #333333
-  background #EDF6FF
+  background #fff
   padding 0
 
 h1, h2, h3, h4
-  font-family 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif
+  font-family 'Open Sans', Helvetica, Arial, sans-serif
   color #111
 
 a:not(.btn)
-  color $highlight_color
+  color $linkColor
   cursor pointer
 
 p
@@ -33,7 +33,6 @@ p
 #sidebar
   min-height 100%
   z-index 1200
-  background #EDF6FF
   padding-bottom 10px
 
   .sidebar-nav
@@ -50,7 +49,7 @@ p
           color #404040
 
         a:hover
-          color $highlight_color
+          color $linkColor
           text-decoration none
 
       p.description
@@ -91,7 +90,7 @@ p
             display block
 
         &.active a
-          border-right 6px solid $highlight_color
+          border-right 6px solid $linkColor
 
         a
           position relative
@@ -105,7 +104,7 @@ p
             text-decoration none
             color #fff
             text-shadow none
-            background $highlight_color
+            background $linkColor
 
     ul.personal-links
       margin 0
@@ -184,13 +183,12 @@ ul.post-archive
     padding 10px 0
 
     > a
-      font-family 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif
       color #111
       font-size 16px
-      font-weight 600
+      font-weight 500
 
       &:hover
-        color $highlight_color
+        color $linkColor
 
     .posted-at
       color #aaa

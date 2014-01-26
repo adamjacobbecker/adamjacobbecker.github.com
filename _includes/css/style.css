@@ -2,18 +2,18 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #333;
-  background: #edf6ff;
+  background: #fff;
   padding: 0;
 }
 h1,
 h2,
 h3,
 h4 {
-  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-family: 'Open Sans', Helvetica, Arial, sans-serif;
   color: #111;
 }
 a:not(.btn) {
-  color: #01a9db;
+  color: #004a5d;
   cursor: pointer;
 }
 p {
@@ -32,7 +32,6 @@ p {
 #sidebar {
   min-height: 100%;
   z-index: 1200;
-  background: #edf6ff;
   padding-bottom: 10px;
 }
 #sidebar .sidebar-nav .info {
@@ -47,7 +46,7 @@ p {
   color: #404040;
 }
 #sidebar .sidebar-nav .info h3 a:hover {
-  color: #01a9db;
+  color: #004a5d;
   text-decoration: none;
 }
 #sidebar .sidebar-nav .info p.description {
@@ -88,7 +87,7 @@ p {
   display: block;
 }
 #sidebar .sidebar-nav ul#links li.active a {
-  border-right: 6px solid #01a9db;
+  border-right: 6px solid #004a5d;
 }
 #sidebar .sidebar-nav ul#links li a {
   position: relative;
@@ -102,7 +101,7 @@ p {
   text-decoration: none;
   color: #fff;
   text-shadow: none;
-  background: #01a9db;
+  background: #004a5d;
 }
 #sidebar .sidebar-nav ul.personal-links {
   margin: 0;
@@ -179,13 +178,12 @@ ul.post-archive li {
   padding: 10px 0;
 }
 ul.post-archive li > a {
-  font-family: 'Raleway', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   color: #111;
   font-size: 16px;
-  font-weight: 600;
+  font-weight: 500;
 }
 ul.post-archive li > a:hover {
-  color: #01a9db;
+  color: #004a5d;
 }
 ul.post-archive li .posted-at {
   color: #aaa;
@@ -339,7 +337,7 @@ ul.post-archive li .abstract {
 .profile-name h2 a:hover,
 .profile-name h3 a:hover,
 .profile-name {
-  color: #01a9db;
+  color: $highlight_color;
 }
 .profile-description {
   clear: left;
@@ -399,7 +397,7 @@ ul.post-archive li .abstract {
 }
 .profile-stats li a:hover,
 .profile-stats li a:hover strong {
-  color: #01a9db;
+  color: $highlight_color;
 }
 .profile-stats li:first-child span {
   border-left: 0;
@@ -451,7 +449,7 @@ ul.post-archive li .abstract {
   left: 0;
   width: 32px;
   height: 32px;
-  border: 2px solid #01a9db;
+  border: 2px solid $highlight_color;
 }
 .tweet-title span {
   color: #777;
@@ -521,7 +519,7 @@ ul.post-archive li .abstract {
 }
 .profile-repo-stats a:hover {
   border-bottom: 0;
-  color: #01a9db;
+  color: $highlight_color;
 }
 .profile-repo-fork {
   margin: 0;
@@ -535,7 +533,7 @@ ul.post-archive li .abstract {
 }
 .profile-repo-fork a:hover {
   border-bottom: 0;
-  color: #01a9db;
+  color: $highlight_color;
 }
 .profile-repo-logo {
   float: right;
@@ -605,7 +603,7 @@ ul.post-archive li .abstract {
 }
 .profile-shot-stats a:hover {
   border-bottom: 0;
-  color: #01a9db;
+  color: $highlight_color;
 }
 .profile-shot-date {
   float: right;
@@ -634,7 +632,7 @@ ul.post-archive li .abstract {
   left: 0;
   width: 32px;
   height: 32px;
-  border: 2px solid #01a9db;
+  border: 2px solid $highlight_color;
 }
 .track-image:hover {
   border-bottom: 0;
@@ -745,7 +743,7 @@ ul.post-archive li .abstract {
 }
 .profile-repo-stats a:hover {
   border-bottom: 0;
-  color: #01a9db;
+  color: $highlight_color;
 }
 .profile-repo-fork {
   margin: 0;
@@ -759,7 +757,7 @@ ul.post-archive li .abstract {
 }
 .profile-repo-fork a:hover {
   border-bottom: 0;
-  color: #01a9db;
+  color: $highlight_color;
 }
 .profile-repo-logo {
   float: right;
