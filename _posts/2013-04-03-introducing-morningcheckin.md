@@ -24,4 +24,4 @@ I don’t care if you like standups or not, but if you’re gonna [do them async
 
 MorningCheckin (free): [http://www.morningcheckin.com](http://www.morningcheckin.com)
 <br />
-Get the code: [http://www.github.com/adamjacobbecker/batman-rails-checkin](http://www.github.com/adamjacobbecker/batman-rails-checkin)
+Get the code: [http://www.github.com/ajb/batman-rails-checkin](http://www.github.com/ajb/batman-rails-checkin)

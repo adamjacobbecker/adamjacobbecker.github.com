@@ -33,7 +33,7 @@
             <p class="description">{{site.description}}</p>
             <ul class="personal-links">
               <li><a href="http://twitter.com/adamjacobbecker"><i class="icon-twitter"></i></a></li>
-              <li><a href="http://github.com/adamjacobbecker"><i class="icon-github-alt"></i></a></li>
+              <li><a href="http://github.com/ajb"><i class="icon-github-alt"></i></a></li>
               <li><a href="mailto:ad ~AT~ mbecker ~DOT~ cc"><i class="icon-envelope-alt"></i></a></li>
               <li><a href="/key.txt">Public Key</a></li>
             </ul>

@@ -18,13 +18,13 @@ Here's the list of the open-source projects that have stemmed from our work in t
 
 - [FormTimer](https://github.com/presidential-innovation-fellows/FormTimer) - FormTimer records how long your forms take to fill out, and sends that information to a node server and/or Google Analytics. There's something called the [Paperwork Reduction Act](http://www.archives.gov/federal-register/laws/paperwork-reduction/) that makes this a vital tool for government websites, but why wouldn't you use it on your site too?
 
-- [USAxGITHUB](https://github.com/adamjacobbecker/USAxGITHUB) - A simple page for viewing the US Federal Government's open-source activity, which uses YQL to make calls to the GitHub API. This can be used to aggregate any number of github organizations' activity onto one dashboard.
+- [USAxGITHUB](https://github.com/ajb/USAxGITHUB) - A simple page for viewing the US Federal Government's open-source activity, which uses YQL to make calls to the GitHub API. This can be used to aggregate any number of github organizations' activity onto one dashboard.
 
-- [github-sentences](https://github.com/adamjacobbecker/github-sentences) - Converts the GitHub Events API to human-readable sentences. Used in USAxGITHUB.
+- [github-sentences](https://github.com/ajb/github-sentences) - Converts the GitHub Events API to human-readable sentences. Used in USAxGITHUB.
 
-- [jquery-birdseye](https://github.com/adamjacobbecker/jquery-birdseye) - My personal favorite, a plugin for moving-map search, like on Yelp or Airbnb, built with jQuery and Leaflet.
+- [jquery-birdseye](https://github.com/ajb/jquery-birdseye) - My personal favorite, a plugin for moving-map search, like on Yelp or Airbnb, built with jQuery and Leaflet.
 
-- [mongoose-api-query](https://github.com/adamjacobbecker/mongoose-api-query) - A plugin for creating a complex search API with Node and MongooseJS.
+- [mongoose-api-query](https://github.com/ajb/mongoose-api-query) - A plugin for creating a complex search API with Node and MongooseJS.
 
 So there you have it, 6 open-source projects in 2 months, and it barely took any extra effort on our part. Sure, we may have spent a couple days refactoring and writing READMEs, but the benefits of modularization are totally worth it. With any hope, this can start to become the norm, and in the coming years you'll see more and more official US Government accounts and repositories online.
 
