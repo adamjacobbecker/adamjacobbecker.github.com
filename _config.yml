@@ -1,6 +1,4 @@
 title: Adam Becker
 description: "Code, bikes, soccer, NYC. Currently building the <a href='http://www.dobt.co'>Department of Better Technology</a>."
 permalink: pretty
-server: true
-auto: true
-pygments: true
+highlighter: true
