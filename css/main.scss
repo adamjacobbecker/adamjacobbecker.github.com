@@ -1,7 +1,63 @@
 ---
 ---
+
 @charset "utf-8";
 
+@mixin displayFont {
+  font-family: 'Merriweather', serif;
+}
+
+@mixin textFont {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+@mixin cf {
+  &:before, &:after {
+    display: table;
+    content: " ";
+  }
+  &:after {
+    clear: both;
+  }
+}
+
 body {
-  background: grey;
+  background: #C6CACF;
+  color: #222;
+  @include textFont;
+  font-size: 20px;
+}
+
+a {
+  color: #5D5D81;
+}
+
+.container {
+  width: 90%;
+  max-width: 650px;
+  margin: 20px auto;
+}
+
+.nav {
+  border-bottom: 1px solid #484A4C;
+  @include cf;
+
+  h1 {
+    @include displayFont;
+    float: left;
+    margin: 0;
+    font-size: 32px;
+    line-height: 1.5;
+  }
+
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    float: right;
+  }
+
+  li {
+    display: inline;
+  }
 }

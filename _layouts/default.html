@@ -2,9 +2,23 @@
 <html>
   <head>
     <title>{{ site.title }}</title>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Source+Sans+Pro" rel="stylesheet">
     <link rel="stylesheet" href="css/main.css" media="all" />
   </head>
   <body>
-    {{ content }}
+    <div class="container">
+      <nav class="nav">
+        <h1>Adam Becker</h1>
+
+        <ul>
+          <li>Projects</li>
+          <li>Writing</li>
+          <li>CV</li>
+          <li>About</li>
+        </ul>
+      </nav>
+
+      {{ content }}
+    </div>
   </body>
 </html>
