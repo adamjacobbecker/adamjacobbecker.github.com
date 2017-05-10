@@ -1,9 +1,0 @@
----
-layout: null
----
-
-{% capture css %}
-{% include css/style.css %}
-{% include css/pygments.css %}
-{% endcapture %}
-{{ css | strip_newlines }}
