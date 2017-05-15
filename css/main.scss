@@ -29,7 +29,11 @@ body {
 }
 
 a {
-  color: #5D5D81;
+  color: #484863;
+
+  &:active {
+    color: darken(#484863, 15%);
+  }
 }
 
 .container {
@@ -44,20 +48,50 @@ a {
 
   h1 {
     @include displayFont;
+    font-weight: normal;
     float: left;
     margin: 0;
     font-size: 32px;
-    line-height: 1.5;
+    line-height: 64px;
   }
 
   ul {
     list-style: none;
     padding: 0;
     margin: 0;
-    float: right;
+    clear: both;
+    line-height: 64px;
   }
 
   li {
     display: inline;
+    margin-right: 20px;
+  }
+
+  a {
+    color: #222;
+    text-decoration: none;
+
+    &:hover {
+      text-decoration: underline;
+    }
+
+    &:active {
+      color: #444;
+    }
+  }
+}
+
+@media screen and (min-width: 640px) {
+  .nav {
+    ul {
+      float: right;
+      clear: none;
+    }
+
+    li {
+      margin-right: 0;
+      margin-left: 20px;
+    }
   }
 }
