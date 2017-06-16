@@ -3,14 +3,6 @@
 
 @charset "utf-8";
 
-@mixin displayFont {
-  font-family: 'Merriweather', serif;
-}
-
-@mixin textFont {
-  font-family: 'Source Sans Pro', sans-serif;
-}
-
 @mixin cf {
   &:before, &:after {
     display: table;
@@ -22,37 +14,38 @@
 }
 
 body {
-  background: #C6CACF;
+  font-family: 'Source Sans Pro', sans-serif;
+  background: #EBF4F6;
   color: #222;
-  @include textFont;
   font-size: 20px;
+  line-height: 1.5;
 }
 
 a {
-  color: #484863;
+  color: #38369A;
 
   &:active {
-    color: darken(#484863, 15%);
+    color: darken(#38369A, 15%);
   }
 }
 
 .container {
   width: 90%;
   max-width: 650px;
-  margin: 20px auto;
+  margin: 25px auto;
 }
 
 .nav {
-  border-bottom: 1px solid #484A4C;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 15px;
   @include cf;
 
   h1 {
-    @include displayFont;
-    font-weight: normal;
+    font-weight: bold;
     float: left;
     margin: 0;
     font-size: 32px;
-    line-height: 64px;
+    line-height: 32px;
   }
 
   ul {
@@ -60,7 +53,7 @@ a {
     padding: 0;
     margin: 0;
     clear: both;
-    line-height: 64px;
+    line-height: 32px;
   }
 
   li {
@@ -87,6 +80,9 @@ a {
     ul {
       float: right;
       clear: none;
+      font-size: 18px;
+      font-weight: bold;
+      letter-spacing: 0.5px;
     }
 
     li {
