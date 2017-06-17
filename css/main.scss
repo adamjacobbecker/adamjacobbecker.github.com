@@ -3,6 +3,14 @@
 
 @charset "utf-8";
 
+* {
+  box-sizing: border-box;
+}
+
+img {
+  max-width: 100%;
+}
+
 @mixin cf {
   &:before, &:after {
     display: table;
@@ -29,15 +37,19 @@ a {
   }
 }
 
+p {
+  margin: 20px 0;
+}
+
 .container {
   width: 90%;
   max-width: 650px;
-  margin: 25px auto;
+  margin: 0 auto;
 }
 
 .nav {
   border-bottom: 1px solid #ccc;
-  padding-bottom: 15px;
+  margin-bottom: 20px;
   @include cf;
 
   h1 {
@@ -45,7 +57,11 @@ a {
     float: left;
     margin: 0;
     font-size: 32px;
-    line-height: 32px;
+    line-height: 48px;
+
+    a {
+      text-decoration: none !important;
+    }
   }
 
   ul {
@@ -53,7 +69,7 @@ a {
     padding: 0;
     margin: 0;
     clear: both;
-    line-height: 32px;
+    line-height: 48px;
   }
 
   li {
@@ -75,8 +91,19 @@ a {
   }
 }
 
+.project {
+  img {
+    border: 3px solid #ccc;
+    border-radius: 3px;
+  }
+}
+
 @media screen and (min-width: 640px) {
   .nav {
+    h1, ul {
+      line-height: 64px;
+    }
+
     ul {
       float: right;
       clear: none;
