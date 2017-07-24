@@ -4,7 +4,7 @@ layout: default
 
 Hi, I'm Adam.
 
-I'm a "web developer", "programmer", "technologist", or whatever else you'd like to call me. I've spent the majority of my professional career developing software for the public sector, first as a [Presidential Innovation Fellow](https://presidentialinnovationfellows.gov/), and most recently as the co-founder of [DOBT](https://www.dobt.co).
+I'm a "web developer", "programmer", "technologist", or whatever else you'd like to call me. I've spent the majority of my professional career developing software for the public sector, first as a [Presidential Innovation Fellow](https://presidentialinnovationfellows.gov/), and most recently as a co-founder of [DOBT](https://www.dobt.co).
 
 I'm currently working as a freelance tech consultant. My strengths include making pragmatic technology choices, helping teams adopt industry best-practices, and providing guidance and mentorship to junior engineers.
 
